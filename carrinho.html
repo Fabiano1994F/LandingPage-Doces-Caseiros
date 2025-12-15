@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css"> 
+    <title>Seu Carrinho - Ki Doce</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header-doces">
+        <div class="container">
+            <a href="index.html" class="logo-doces">Ki Doce</a>
+            
+            <nav class="nav-doces">
+                <ul>
+                    <li><a href="index.html#sabores">Início</a></li>
+                    <li><a href="index.html#depoimentos">Depoimentos</a></li>
+                    <li><a href="index.html#contato">Contato</a></li>
+                </ul>
+            </nav>
+            
+            <a href="carrinho.html" class="cart-icon-container header-cart" role="button" aria-label="Ver carrinho">
+                <i class="fas fa-shopping-cart"></i>
+                <span id="cart-count" class="cart-count">0</span> 
+            </a>
+            
+        </div>
+    </header>
+
+    <main class="page-carrinho">
+        <div class="container">
+            <h1 class="carrinho-title">🛒 Seu Carrinho de Compras</h1>
+            
+            <section class="carrinho-detalhes">
+                <div id="cart-items-page" class="carrinho-lista">
+                    <p class="empty-cart-message">O carrinho está vazio.</p>
+                </div>
+            </section>
+            
+            <section class="carrinho-resumo">
+                <h2>Resumo do Pedido</h2>
+                <div class="resumo-linha">
+                    <p>Subtotal:</p>
+                    <p id="cart-subtotal">R$ 0,00</p>
+                </div>
+                <div class="resumo-linha total">
+                    <h3>Total:</h3>
+                    <h3 id="cart-total-page">R$ 0,00</h3>
+                </div>
+                
+                <button id="checkout-btn-page" class="btn-primary-doces btn-full-width" disabled>
+                    <i class="fab fa-whatsapp"></i> Finalizar Pedido
+                </button>
+                
+                <a href="index.html#sabores" class="btn-secundary-doces btn-full-width continuar-comprando">
+                    <i class="fas fa-arrow-left"></i> Continuar Comprando
+                </a>
+
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer-doces">
+        </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

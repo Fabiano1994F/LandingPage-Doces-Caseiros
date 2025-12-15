@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Ki Doce</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header-doces">
+        <div class="container">
+            <a href="#" class="logo-doces">Ki Doce</a>
+
+            <nav class="nav-doces">
+                <ul>
+                    <li><a href="#sabores">Início</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="cart-wrapper">
+                <a href="carrinho.html" class="cart-icon-container header-cart" role="button" aria-label="Ver carrinho">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span id="cart-count" class="cart-count">0</span>
+                </a>
+
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-doces">
+        <div class="container">
+            <h1>Doces Caseiros com sabor de infância</h1>
+            <p>Adoce sua vida com receitas tradicionais feitas com amor e carinho.</p>
+            <a href="#contato" class="btn-primary-doces">EU QUERO!</a>
+        </div>
+    </section>
+
+    <section id="como-encomendar" class="como-encomendar-doces">
+        <div class="container">
+            <h2>É Fácil Adoçar a Sua Vida</h2>
+            <p class="section-description">Siga os 3 passos simples abaixo para fazer sua encomenda.</p>
+
+            <div class="grid">
+
+                <div class="passo-card">
+                    <div class="numero-passo">1</div>
+                    <i class="fas fa-cookie-bite"></i>
+                    <h3>Escolha o Sabor</h3>
+                    <p>Navegue na seção "Nossos Sabores" para escolher o sabor desejado.</p>
+                </div>
+
+                <div class="passo-card">
+                    <div class="numero-passo">2</div>
+                    <i class="fas fa-message"></i>
+                    <h3>Entre em contato</h3>
+                    <p>Clique no botão do WhatsApp e nos diga quais itens e quantidades você deseja.</p>
+                </div>
+
+                <div class="passo-card">
+                    <div class="numero-passo">3</div>
+                    <i class="fas fa-truck-loading"></i>
+                    <h3>Receba em Casa</h3>
+                    <p>Combinamos a entrega e o pagamento. Em breve, as suas delícias estarão na sua mesa!</p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="sabores" class="sabores-doces">
+        <div class="container">
+            <h2>Nossos Doces</h2>
+            <p class="section-description">Feitos com ingredientes frescos.</p>
+
+            <div class="grid-sabores">
+                <div class="doce-card">
+                    <img src="./img/bolodecenoura.jpg" alt="Bolo de Cenoura com Cobertuda de Chocolate">
+                    <h3>Bolo de Cenoura com Cobertuda de Chocolate</h3>
+                    <p>Fofinho e úmido, com aquela cobertura irresistível de chocolate. Um clássico!</p>
+                    <span class="preco-doces">R$ 45,00 (bolo inteiro)</span>
+
+                    <button class="btn-secundary-doces add-to-cart-btn" data-id="bolo-cenoura"
+                        data-name="Bolo de Cenoura" data-price="45.00">
+                        <i class="fas fa-cart-plus"></i> Adicionar ao carrinho
+                    </button>
+                </div>
+
+                <div class="doce-card">
+                    <img src="./img/brigadeiro.jpg" alt="Brigadeiros Gourmet Variados">
+                    <h3>Brigadeiros Gourmet</h3>
+                    <p>Sabores variados que derretem na boca: tradicional, ninho, churros e muito mais.</p>
+                    <span class="preco-doces">R$ 3,50 (unidade)</span>
+                    <button class="btn-secundary-doces add-to-cart-btn" data-id="brigadeiros"
+                        data-name="Brigadeiros Gourmet" data-price="3.50"> <i class="fas fa-cart-plus"></i> Adicionar ao
+                        Carrinho
+                    </button>
+                </div>
+
+                <div class="doce-card">
+                    <img src="./img/pudim.jpg" alt="Pudim de Leite Condensado Cremoso">
+                    <h3>Pudim de Leite</h3>
+                    <p>O pudim perfeito: super cremoso, com a calda na medida certa. Sabor de casa de vó!</p>
+                    <span class="preco-doces">R$ 55,00 (pudim grande)</span>
+                    <button class="btn-secundary-doces add-to-cart-btn" data-id="pudim-leite" data-name="Pudim de Leite"
+                        data-price="55.00"> <i class="fas fa-cart-plus"></i> Adicionar ao Carrinho
+                    </button>
+                </div>
+
+                <div class="doce-card">
+                    <img src="./img/docedeleite.jpg" alt="Doce de Leite Caseiro">
+                    <h3>Doce de Leite</h3>
+                    <p>Diretamente da fazenda, nosso doce de leite é puro açúcar e carinho. Irresistível!</p>
+                    <span class="preco-doces">R$ 28,00 (pote 500g)</span>
+                    <button class="btn-secundary-doces add-to-cart-btn" data-id="doce-leite" data-name="Doce de Leite"
+                        data-price="28.00"> <i class="fas fa-cart-plus"></i> Adicionar ao Carrinho
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="depoimentos" class="depoimentos-doces">
+        <div class="container">
+            <h2>O Que Dizem Nossos Clientes</h2>
+            <p class="section-description">A satisfação dos nossos clientes é a
+                nossa maior doçura.</p>
+
+            <div class="grid-depoimentos">
+                <div class="depoimento-card">
+                    <i class="fas fa-quote-left"></i>
+                    <p>Os doces da Vovó são simplesmente divinos! O bolo de cenoura me transportou para a infância.
+                        Recomendo muito!"</p>
+                    <h4>Tais Souza</h4>
+                </div>
+                <div class="depoimento-card">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"Pedi os brigadeiros para uma festa e foi sucesso absoluto! Todos elogiaram o sabor e a
+                        qualidade. Perfeitos!"</p>
+                    <h4>João Costa</h4>
+                </div>
+                <div class="depoimento-card">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"O pudim é o melhor que já comi! Cremoso e com a calda no ponto. Nota 10!"</p>
+                    <h4>Ana Oliveira</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato-doces">
+        <div class="container">
+            <h2>Peça Já o Seu Doce Favorito!</h2>
+            <p>Faça sua encomenda e garanta um momento de pura doçura.</p>
+            <div class="contato-info-doces">
+                <p><i class="fab fa-whatsapp"></i> (XX) XXXX-XXXX</p>
+                <p><i class="fas fa-envelope"></i> contato@docesdavovo.com.br</p>
+                <p><i class="fas fa-map-marker-alt"></i> Entregamos em sua região!</p>
+                <a href="https://wa.me/SEUNUMERO" target="_blank" class="btn-primary-doces"><i
+                        class="fab fa-whatsapp"></i> Encomendar pelo WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-doces">
+        <div class="container">
+            <div class="footer-col">
+                <h4>Redes sociais</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <p>&copy; 2025 Ki Doce. Todos os direitos reservados. | Feito com ❤</p>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
